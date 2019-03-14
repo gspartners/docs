@@ -24,7 +24,7 @@ instance_class: F2
 
 handlers:
   - url: /_nuxt
-    static_dir: .nuxt/dist/client
+    static_dir: .nuxt/dist
     secure: always
 
   - url: /(.*\.(gif|png|jpg|ico|txt))$
